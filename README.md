@@ -2,13 +2,13 @@
 
 This is a set of 99 Clojure problems of various levels of difficulty.
 
-# Instructions
+## Instructions
 
 1. Get a copy of this repo
-2. Read the [problems list][problems-en]
-3. Solve 'em ;)
+2. Read the [instructions][instructions-en]
+3. Solve the problems ;)
 
-[problems-en]: https://github.com/99XProblems/99-Clojure-Problems/blob/master/docs/problems.en.md
+[instructions-en]: https://github.com/99XProblems/99-Clojure-Problems/blob/master/docs/instructions.en.md
 
 ### With Git & GitHub
 
@@ -30,3 +30,7 @@ This is a set of 99 Clojure problems of various levels of difficulty.
     $ unzip master.zip
     $ mv 99-Clojure-Problems-master 99-Clojure-Problems
     $ cd 99-Clojure-Problems
+
+## See also
+
+* [99 Scala Problems](https://github.com/99XProblems/99-Scala-Problems)
