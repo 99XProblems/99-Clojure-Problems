@@ -2,9 +2,6 @@
   (:require [clojure.test :refer :all]
             [p99.core :refer :all]))
 
-
-
-
 ;; problem 1
 (deftest can-nothing-but-the-truth
   (is (= nothing-but-the-truth-solution true)))
