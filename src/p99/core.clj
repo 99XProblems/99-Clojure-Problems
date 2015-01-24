@@ -1,8 +1,18 @@
 (ns p99.core)
 
+;;; All 99 problems are listed below. Each one indicates its level of
+;;; difficulty as well as the text of the problem. There are just skeletons,
+;;; feel free to re-write the code as you want, and most functions will need
+;;; you to adjust their arguments to be meaningful.
+;;;
+;;; See src/p88/core_test for the tests.
+;;;
+;;; See also http://www.4clojure.com, where you can solve the problems online,
+;;; and http://www.4clojure.com/problem/NUM, where NUM is a problem number, to
+;;; see it online.
+
 ;; problem 1 (Elementary)
-(defn nothing-but-the-truth-solution
-  [& args] ;; update args as needed
+(def nothing-but-the-truth-solution
   ;; This is a clojure form. Enter a value which will make the form evaluate to
   ;; true. Don't over think it! If you are confused, see the getting started
   ;; page. Hint: true is equal to true.
@@ -10,8 +20,7 @@
 
 
 ;; problem 2 (Elementary)
-(defn simple-math-solution
-  [& args] ;; update args as needed
+(def simple-math-solution
   ;; If you are not familiar with polish notation, simple arithmetic might seem
   ;; confusing. Note: Enter only enough to fill in the blank (in this case, a
   ;; single number) - do not retype the whole problem.
@@ -19,61 +28,53 @@
 
 
 ;; problem 3 (Elementary)
-(defn intro-to-strings-solution
-  [& args] ;; update args as needed
+(def intro-to-strings-solution
   ;; Clojure strings are Java strings. This means that you can use any of the
   ;; Java string methods on Clojure strings.
   nil)
 
 
 ;; problem 4 (Elementary)
-(defn intro-to-lists-solution
-  [& args] ;; update args as needed
+(def intro-to-lists-solution
   ;; Lists can be constructed with either a function or a quoted form.
   nil)
 
 
 ;; problem 5 (Elementary)
-(defn lists-conj-solution
-  [& args] ;; update args as needed
+(def lists-conj-solution
   ;; When operating on a list, the conj function will return a new list with
   ;; one or more items "added" to the front.
   nil)
 
 
 ;; problem 6 (Elementary)
-(defn intro-to-vectors-solution
-  [& args] ;; update args as needed
+(def intro-to-vectors-solution
   ;; Vectors can be constructed several ways. You can compare them with lists.
   nil)
 
 
 ;; problem 7 (Elementary)
-(defn vectors-conj-solution
-  [& args] ;; update args as needed
+(def vectors-conj-solution
   ;; When operating on a Vector, the conj function will return a new vector
   ;; with one or more items "added" to the end.
   nil)
 
 
 ;; problem 8 (Elementary)
-(defn intro-to-sets-solution
-  [& args] ;; update args as needed
+(def intro-to-sets-solution
   ;; Sets are collections of unique values.
   nil)
 
 
 ;; problem 9 (Elementary)
-(defn sets-conj-solution
-  [& args] ;; update args as needed
+(def sets-conj-solution
   ;; When operating on a set, the conj function returns a new set with one or
   ;; more keys "added".
   nil)
 
 
 ;; problem 10 (Elementary)
-(defn intro-to-maps-solution
-  [& args] ;; update args as needed
+(def intro-to-maps-solution
   ;; Maps store key-value pairs. Both maps and keywords can be used as lookup
   ;; functions. Commas can be used to make maps more readable, but they are not
   ;; required.
@@ -81,32 +82,28 @@
 
 
 ;; problem 11 (Elementary)
-(defn maps-conj-solution
-  [& args] ;; update args as needed
+(def maps-conj-solution
   ;; When operating on a map, the conj function returns a new map with one or
   ;; more key-value pairs "added".
   nil)
 
 
 ;; problem 12 (Elementary)
-(defn intro-to-sequences-solution
-  [& args] ;; update args as needed
+(def intro-to-sequences-solution
   ;; All Clojure collections support sequencing. You can operate on sequences
   ;; with functions like first, second, and last.
   nil)
 
 
 ;; problem 13 (Elementary)
-(defn sequences-rest-solution
-  [& args] ;; update args as needed
+(def sequences-rest-solution
   ;; The rest function will return all the items of a sequence except the
   ;; first.
   nil)
 
 
 ;; problem 14 (Elementary)
-(defn intro-to-functions-solution
-  [& args] ;; update args as needed
+(def intro-to-functions-solution
   ;; Clojure has many different ways to create functions.
   nil)
 
@@ -601,6 +598,7 @@
   ;; code more readable.
   nil)
 
+;; problem 72: nothing here, just breath :)
 
 ;; problem 73 (Hard)
 (defn analyze-a-tic-tac-toe-board-solution
